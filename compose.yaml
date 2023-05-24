@@ -1,0 +1,10 @@
+services:
+  data_check:
+    build:
+      context: .
+      dockerfile: ./dockerfile
+    volumes:
+      - type: bind
+        source: "."
+        target: "/workspace"
+    tty: true
