@@ -22,7 +22,8 @@
 				"ms-python.flake8",
 				"mhutchie.git-graph",
 				"ms-python.isort",
-				"ms-python.python"
+				"ms-python.python",
+				"natqe.reload"
 			]
 		}
 	}
