@@ -1,5 +1,6 @@
 """hogehoge"""
 import pytest
+
 from task.abc278.a import main
 from utility.mock_std import In, Out
 
