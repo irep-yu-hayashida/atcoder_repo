@@ -1,5 +1,5 @@
 services:
-  data_check:
+  mob_pro_atcoder:
     build:
       context: .
       dockerfile: ./dockerfile
