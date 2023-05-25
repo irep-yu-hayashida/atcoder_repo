@@ -8,6 +8,8 @@
     "mhutchie.git-graph",
     "ms-python.isort",
     "ms-ceintl.vscode-language-pack-ja",
-    "natqe.reload"
+    "natqe.reload",
+    "ms-vsliveshare.vsliveshare",
+    "ms-vsliveshare.vsliveshare-pack",
   ]
 }

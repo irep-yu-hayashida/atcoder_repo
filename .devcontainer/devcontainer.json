@@ -25,7 +25,9 @@
 				"mhutchie.git-graph",
 				"ms-python.isort",
 				"ms-python.python",
-				"natqe.reload"
+				"natqe.reload",
+				"ms-vsliveshare.vsliveshare",
+				"ms-vsliveshare.vsliveshare-pack",
 			]
 		}
 	}
