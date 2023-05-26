@@ -1,5 +1,5 @@
 """hogehoge"""
-from utility.mock_std import In, Out
+from util.mock_std import In, Out
 
 
 def test_mock_input():

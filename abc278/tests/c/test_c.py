@@ -1,7 +1,8 @@
 """hogehoge"""
 import pytest
-from task.abc278.c import main
-from utility.mock_std import In, Out
+
+from abc278.task.c import main
+from util.mock_std import In, Out
 
 
 def test_case1(monkeypatch: pytest.MonkeyPatch):

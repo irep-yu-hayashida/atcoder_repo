@@ -1,6 +1,6 @@
 """標準出力のモック用の関数"""
 from collections import deque
-from utility.utility import read_file
+from util.utility import read_file
 from typing import List
 
 
