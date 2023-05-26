@@ -6,8 +6,8 @@ from util.mock_std import In, Out
 
 
 def test_case1(monkeypatch: pytest.MonkeyPatch):
-    stdin: object = In("tests/abc278/d/input/input1.txt")
-    stdout: object = Out("tests/abc278/d/output/output1.txt")
+    stdin: object = In("abc278/tests/d/input/input1.txt")
+    stdout: object = Out("abc278/tests/d/output/output1.txt")
     monkeypatch.setattr("sys.stdin.readline", stdin.pop)
     monkeypatch.setattr("sys.stdout.write", stdout.add)
     main()
@@ -15,8 +15,8 @@ def test_case1(monkeypatch: pytest.MonkeyPatch):
 
 
 def test_case2(monkeypatch: pytest.MonkeyPatch):
-    stdin: object = In("tests/abc278/d/input/input2.txt")
-    stdout: object = Out("tests/abc278/d/output/output2.txt")
+    stdin: object = In("abc278/tests/d/input/input2.txt")
+    stdout: object = Out("abc278/tests/d/output/output2.txt")
     monkeypatch.setattr("sys.stdin.readline", stdin.pop)
     monkeypatch.setattr("sys.stdout.write", stdout.add)
     main()
@@ -24,8 +24,8 @@ def test_case2(monkeypatch: pytest.MonkeyPatch):
 
 
 def test_case3(monkeypatch: pytest.MonkeyPatch):
-    stdin: object = In("tests/abc278/d/input/input3.txt")
-    stdout: object = Out("tests/abc278/d/output/output3.txt")
+    stdin: object = In("abc278/tests/d/input/input3.txt")
+    stdout: object = Out("abc278/tests/d/output/output3.txt")
     monkeypatch.setattr("sys.stdin.readline", stdin.pop)
     monkeypatch.setattr("sys.stdout.write", stdout.add)
     main()
