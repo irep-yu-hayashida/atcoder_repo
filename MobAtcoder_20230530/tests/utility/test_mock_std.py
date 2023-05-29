@@ -3,7 +3,7 @@ from utility.mock_std import In, Out
 
 
 def test_mock_input():
-    file_path = "tests/utility/test1.txt"
+    file_path = "MobAtcoder_20230530/tests/utility/test1.txt"
     stdin = In(file_path)
 
     res = list()
@@ -18,7 +18,7 @@ def test_mock_out1():
     """正常系1
     通常ケース
     """
-    file_path = "tests/utility/test1.txt"
+    file_path = "MobAtcoder_20230530/tests/utility/test1.txt"
 
     stdout = Out(file_path)
     stdout.add("4")
@@ -31,7 +31,7 @@ def test_mock_out1():
 
 def test_mock_out2():
     """print(1, 6) パターン issue#6"""
-    file_path = "tests/utility/test2.txt"
+    file_path = "MobAtcoder_20230530/tests/utility/test2.txt"
     stdout = Out(file_path)
     stdout.add("1")
     stdout.add(" ")
